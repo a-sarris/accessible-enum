@@ -7,6 +7,8 @@ A macro (Swift 5.9 only) that when attached to an `enum` declaration, adds addit
 
 ### Usage 
 
+Attach `@AccessibleEnum` to an enum with multiple cases that have associated values.
+
 ```
 @AccessibleEnum
 public enum Foo {
