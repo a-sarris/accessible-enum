@@ -1,5 +1,9 @@
 ## AccessibleEnumMacro
 A macro (Swift 5.9 only) that when attached to an `enum` declaration, adds additional functionality.
+### Installation
+
+- Add it as a Swift Package
+- Add `AccessibleEnum` Library to your project
 
 ### Usage 
 
@@ -27,4 +31,4 @@ let isFooBar = value.isCase(.fooBar)
 let associated: Int? = value.associatedValue()
 ```
 
-Inspired by EnumKit[EnumKit](https://github.com/gringoireDM/EnumKit)
+Inspired by [EnumKit](https://github.com/gringoireDM/EnumKit)
